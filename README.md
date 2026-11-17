@@ -46,7 +46,7 @@ DATA        ████████████████████  Postgr
 ### `> contribution.telemetry`
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=YOUR_GITHUB_USERNAME&bg_color=07111f&color=9bbbd0&line=54f3c2&point=ffffff&area=true&area_color=164c4d&hide_border=true&custom_title=Contribution%20Telemetry" alt="GitHub contribution activity graph" width="100%" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Gestotudor&bg_color=07111f&color=9bbbd0&line=54f3c2&point=ffffff&area=true&area_color=164c4d&hide_border=true&custom_title=Contribution%20Telemetry" alt="GitHub contribution activity graph" width="100%" />
 </div>
 
 <div align="center">
