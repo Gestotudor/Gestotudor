@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-label="Uğur Özbek — Backend Engineer, transaction observatory">
+<defs>
+  <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#07111f"/><stop offset=".52" stop-color="#09192b"/><stop offset="1" stop-color="#0b1020"/></linearGradient>
+  <linearGradient id="mint" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#54f3c2"/><stop offset="1" stop-color="#43b9ff"/></linearGradient>
+  <radialGradient id="glow"><stop stop-color="#38e6c4" stop-opacity=".14"/><stop offset="1" stop-color="#38e6c4" stop-opacity="0"/></radialGradient>
+  <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#35536b" stroke-opacity=".19" stroke-width="1"/></pattern>
+  <filter id="soft"><feGaussianBlur stdDeviation="4"/></filter>
+  <style>
+    .mono{font-family:Consolas,'Liberation Mono',monospace}.sans{font-family:Inter,Arial,sans-serif}
+    .dash{stroke-dasharray:6 9;animation:move 12s linear infinite}
+    .packet{animation:travel 7s linear infinite;offset-path:path('M 698 206 C 750 206 760 142 828 142 S 904 142 952 142 S 1037 206 1085 206');offset-distance:0%}
+    .packet2{animation:travel 7s linear infinite 2.4s;offset-path:path('M 698 206 C 750 206 760 142 828 142 S 904 142 952 142 S 1037 206 1085 206');offset-distance:0%}
+    .packet3{animation:travel 7s linear infinite 4.8s;offset-path:path('M 698 206 C 750 206 760 142 828 142 S 904 142 952 142 S 1037 206 1085 206');offset-distance:0%}
+    .pulse{animation:pulse 2.8s ease-in-out infinite}.blink{animation:blink 2.4s ease-in-out infinite}
+    @keyframes move{to{stroke-dashoffset:-180}}@keyframes travel{to{offset-distance:100%}}
+    @keyframes pulse{0%,100%{opacity:.3}50%{opacity:1}}@keyframes blink{0%,100%{opacity:1}50%{opacity:.3}}
+    @media (prefers-reduced-motion:reduce){*{animation:none!important}}
+  </style>
+</defs>
+<rect width="1200" height="420" rx="22" fill="url(#bg)"/><rect width="1200" height="420" rx="22" fill="url(#grid)"/>
+<circle cx="910" cy="174" r="250" fill="url(#glow)"/>
+<path d="M35 51H1165" stroke="#274157"/><circle cx="49" cy="28" r="5" fill="#54f3c2"/><text x="64" y="33" class="mono" font-size="13" fill="#8bd5c8" letter-spacing="1.5">SYSTEM / ENGINEERING PROFILE</text>
+<text x="1156" y="33" class="mono" font-size="12" text-anchor="end" fill="#7293a8">MODE: DISTRIBUTED</text>
+<rect x="43" y="84" width="7" height="82" rx="3" fill="url(#mint)"/>
+<text x="70" y="120" class="sans" font-size="51" font-weight="800" fill="#f2f8ff" letter-spacing="-2">UĞUR ÖZBEK</text>
+<text x="72" y="151" class="mono" font-size="17" fill="#5debc1" letter-spacing="2.5">SENIOR BACKEND ENGINEER</text>
+<text x="72" y="194" class="sans" font-size="17" fill="#b5c9d8">Building resilient systems for money in motion.</text>
+<text x="72" y="223" class="sans" font-size="14" fill="#8ca6b8">Banking  /  Payments  /  Open Banking  /  Fintech</text>
+<rect x="69" y="264" width="123" height="31" rx="7" fill="#122a34" stroke="#2f766a"/><text x="130" y="284" class="mono" font-size="12" text-anchor="middle" fill="#79f3c4">JAVA · SPRING</text>
+<rect x="202" y="264" width="94" height="31" rx="7" fill="#19233c" stroke="#4a5e93"/><text x="249" y="284" class="mono" font-size="12" text-anchor="middle" fill="#aac5ff">C# · .NET</text>
+<rect x="306" y="264" width="143" height="31" rx="7" fill="#23243b" stroke="#5c557f"/><text x="377" y="284" class="mono" font-size="12" text-anchor="middle" fill="#d2bbff">EVENT-DRIVEN</text>
+<path d="M69 332H526" stroke="#2b4356"/><text x="70" y="358" class="mono" font-size="12" fill="#648499">DESIGN PRINCIPLES</text>
+<text x="70" y="381" class="mono" font-size="13" fill="#b5cedf">Idempotency  •  Consistency  •  Observability</text>
+<path d="M589 75V384" stroke="#2d465b" stroke-dasharray="3 7"/>
+<text x="626" y="87" class="mono" font-size="12" fill="#87afc6">TRANSACTION FLOW / CONCEPTUAL MODEL</text>
+<path d="M698 206 C750 206 760 142 828 142 S904 142 952 142 S1037 206 1085 206" fill="none" stroke="#1c5c65" stroke-width="12" opacity=".23"/>
+<path d="M698 206 C750 206 760 142 828 142 S904 142 952 142 S1037 206 1085 206" class="dash" fill="none" stroke="#50eac1" stroke-width="2"/>
+<circle class="packet" r="6" fill="#b2ffdd"/><circle class="packet2" r="6" fill="#7acbff"/><circle class="packet3" r="6" fill="#b2ffdd"/>
+<g><rect x="625" y="174" width="141" height="64" rx="11" fill="#0e2730" stroke="#3b9a89"/><circle cx="647" cy="196" r="5" fill="#59f2c7" class="blink"/><text x="662" y="201" class="mono" font-size="13" fill="#effff8">API GATEWAY</text><text x="644" y="222" class="mono" font-size="10" fill="#77a59d">AUTH / ROUTING</text></g>
+<g><rect x="787" y="109" width="133" height="66" rx="11" fill="#0e2730" stroke="#3b9a89"/><circle cx="807" cy="129" r="5" fill="#59f2c7"/><text x="820" y="134" class="mono" font-size="13" fill="#effff8">PAYMENT</text><text x="805" y="157" class="mono" font-size="10" fill="#77a59d">IDEMPOTENT</text></g>
+<g><rect x="946" y="109" width="133" height="66" rx="11" fill="#14263a" stroke="#5486a9"/><circle cx="966" cy="129" r="5" fill="#63bdff"/><text x="979" y="134" class="mono" font-size="13" fill="#f1f8ff">EVENT BUS</text><text x="964" y="157" class="mono" font-size="10" fill="#87adc6">KAFKA / MQ</text></g>
+<g><rect x="1043" y="174" width="121" height="64" rx="11" fill="#0e2730" stroke="#3b9a89"/><circle cx="1062" cy="196" r="5" fill="#59f2c7"/><text x="1075" y="201" class="mono" font-size="13" fill="#effff8">LEDGER</text><text x="1061" y="222" class="mono" font-size="10" fill="#77a59d">CONSISTENCY</text></g>
+<path d="M856 176V263H999V238" stroke="#375a72" stroke-width="1.5" stroke-dasharray="4 6" fill="none"/><rect x="778" y="263" width="272" height="73" rx="10" fill="#0d1f31" stroke="#28475b"/>
+<text x="795" y="286" class="mono" font-size="11" fill="#7699b1">ENGINEERING GUARDRAILS</text>
+<circle cx="799" cy="309" r="4" fill="#59f2c7"/><text x="810" y="313" class="mono" font-size="11" fill="#c6e1ec">RETRY SAFE</text>
+<circle cx="928" cy="309" r="4" fill="#59f2c7"/><text x="939" y="313" class="mono" font-size="11" fill="#c6e1ec">TRACEABLE</text>
+<text x="1148" y="386" class="mono" font-size="11" text-anchor="end" fill="#587b92">DESIGNED FOR FAILURE · BUILT FOR RECOVERY</text>
+</svg>
